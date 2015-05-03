@@ -23,6 +23,7 @@ function [imdata, imhdr] = explore_gclient(varargin)
 %
 % Example usage:
 %  % Start Gadgetron on remote machine (here with IP 192.168.230.130).
+%  [imdata, imhdr] = explore_gclient('ipaddr','192.168.230.130', 'local_config_file','');
 %  
 %  
 % David Atkinson  D.Atkinson@ucl.ac.uk
